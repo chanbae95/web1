@@ -4,44 +4,7 @@
   <head>
     <title>엔비디아</title>
     <meta charset="utf-8">
-    <style>
-      body {
-        margin: 0;
-      }
-      a {
-        color: black;
-        text-decoration: none;
-      }
-      .saw {
-        color: gray;
-      }
-      #active{
-        color:red;
-      }
-      h1 {
-        font-size:70px;
-        text-align: center;
-        border-bottom: 1px solid gray;
-        margin: 0;
-        padding: 20px;
-        /*
-        border-width: 5px;
-        border-color: red;
-        border-style: solid;
-        display: block;
-        width: 200px;
-        padding: 10px;
-        margin: 5;
-        */
-      }
-      ol {
-        border-right: 1px solid gray;
-        width: 100px;
-        margin: 0;
-        padding: 10px;
-        padding-left: 40px;
-      }
-    </style>
+  <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
@@ -54,29 +17,33 @@
       <li>ol : Ordered List 자동으로 줄 번호가 추가 됨</li>
     </ol>
     -->
+    <div id="grid">
     <ol>
-      <li><a href="1.html" class="saw" id="active">엔비디아</a> </li>
-      <li><a href="2.html" class="saw">현대자동차</a> </li>
+      <li><a href="1.html">엔비디아</a> </li>
+      <li><a href="2.html">현대자동차</a> </li>
       <li><a href="3.html">삼성전자</a> </li>
     </ol>
+    <div id="arti">
 
-    <h2>엔비디아</h2>
+      <h2>엔비디아</h2>
 
-    21년 12월 23일
-    <u><a href="https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=%EC%97%94%EB%B9%84%EB%94%94%EC%95%84" target="_blank" title="엔비디아 주가">엔비디아</a></u> 현재 <strong>295</strong>
+      21년 12월 23일
+      <u><a href="https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=%EC%97%94%EB%B9%84%EB%94%94%EC%95%84" target="_blank" title="엔비디아 주가">엔비디아</a></u> 현재 <strong>295</strong>
 
-    엔비디아(NVIDIA, 나스닥: NVDA, /ɪnˈvɪdiə/[1])는 미국의 컴퓨터 GPU를 디자인하는 회사다. GPU와 그 연산구조를 활용하여 인공지능 컴퓨팅의 학습을 목적으로 반도체 전기회로를 디자인한다.
-    <br>
-    최근 반도체 전기회로 설계를 주 목적으로 하는 ARM을 인수하려 하고 있으며 인수가 된다면 인공지능 학습을 목적으로 하는 대용량 데이터의 대량 동시 처리 목적의 GPU와 함께 사용할 CPU 등도 만들 것이다.
-    <br>
-    AMD가 자일링스를 인수하여 기존의 CPU, GPU뿐만 아니라 사업들의 데이터를 처리하는 목적에 맞는 반도체 전기회로를 제공하기 위해 처리하려고 하는 데이터의 성격에 따라 전기회로의 구조를 바꿀 수 있는 디자인을 제공하려고 하는 것과 같은 이야기이다.
-    즉, 사업 분야를 조금 넓히는 것이다.
-    <p style="margin-top:45px;">
-      본래 창업자 젠슨 황은 게임을 너무 좋아해서 게이머를 위해 GPU를 설계했으나 단순한 그래픽을 매우 많은 픽셀에 단순한 연산을 동시에 대량으로 하는 연산 구조가 인공지능을 만들 때 가장 중요한 것이 학습인데 그 학습의 목적과 딱 맞는 구조를 디자인하고 있던 차에 2016년부터 인공지능을 엔비디아의 주 사업 목적으로 삼게 되었다.
+      엔비디아(NVIDIA, 나스닥: NVDA, /ɪnˈvɪdiə/[1])는 미국의 컴퓨터 GPU를 디자인하는 회사다. GPU와 그 연산구조를 활용하여 인공지능 컴퓨팅의 학습을 목적으로 반도체 전기회로를 디자인한다.
       <br>
-      따라서 엔비디아의 주요 사업은 최근의 ARM 인수도 같은 목적으로, 인공지능 컴퓨팅을 목적으로 학습할 데이터를 위한 반도체 전기회로를 디자인하는 것이다.
+      최근 반도체 전기회로 설계를 주 목적으로 하는 ARM을 인수하려 하고 있으며 인수가 된다면 인공지능 학습을 목적으로 하는 대용량 데이터의 대량 동시 처리 목적의 GPU와 함께 사용할 CPU 등도 만들 것이다.
+      <br>
+      AMD가 자일링스를 인수하여 기존의 CPU, GPU뿐만 아니라 사업들의 데이터를 처리하는 목적에 맞는 반도체 전기회로를 제공하기 위해 처리하려고 하는 데이터의 성격에 따라 전기회로의 구조를 바꿀 수 있는 디자인을 제공하려고 하는 것과 같은 이야기이다.
+      즉, 사업 분야를 조금 넓히는 것이다.
+      <p style="margin-top:45px;">
+        본래 창업자 젠슨 황은 게임을 너무 좋아해서 게이머를 위해 GPU를 설계했으나 단순한 그래픽을 매우 많은 픽셀에 단순한 연산을 동시에 대량으로 하는 연산 구조가 인공지능을 만들 때 가장 중요한 것이 학습인데 그 학습의 목적과 딱 맞는 구조를 디자인하고 있던 차에 2016년부터 인공지능을 엔비디아의 주 사업 목적으로 삼게 되었다.
+      <br>
+        따라서 엔비디아의 주요 사업은 최근의 ARM 인수도 같은 목적으로, 인공지능 컴퓨팅을 목적으로 학습할 데이터를 위한 반도체 전기회로를 디자인하는 것이다.
     </p>
     엑스박스와 플레이스테이션 3과 같은 비디오 게임기에 그래픽 카드 칩셋을 공급하였으며 2005년 12월 14일, 엔비디아는 ULI를 인수했다. 본사는 캘리포니아주의 샌타클라라에 있다.
     <img src="엔비디아.jfif" width="50%" alt="">
+    </div>
+    </div>
   </body>
 </html>
