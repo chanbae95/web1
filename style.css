@@ -36,7 +36,7 @@ h1 {
 #topmenu li a:hover{
   background-color: #4d5d5d;
   color: red;
-  transition: all 0.5s;
+  transition: all 1s;
 }
 ol, ul {
   border-right: 1px solid gray;
