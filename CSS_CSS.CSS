@@ -1,0 +1,21 @@
+  ul li{color: red;}
+  #lecture>li{border: 1px solid red;}
+  ul, ol{background-color: powderblue;}
+  a:hover{color:yellow;}
+  a:active{color:green;}
+  a:focus{color:white;}
+  input:focus{background-color:black; color:white;}
+
+  #px{font-size: 16px;}
+  #rem{font-size: 1rem;}
+  /*
+  p{font-size: 2rem; font-family: arial, verdana, "Helvetica Neue", monospace; border: 1px solid gray; font-weight: bold; line-height: 2;}
+  */
+  .hi{display: inline; border: 1px solid red;}
+  .boxsizing > div{margin: 10px; width: 80px; box-sizing: border-box;}
+  .red{border: 5px solid red;}
+  .hat{border: 20px solid red;}
+
+  .add{border: 5px solid blue; height: 80px;}
+  .plus{position: relative; float: left; display: inline-block; border: 5px solid red; height: 100%; width: 50%; box-sizing: border-box;}
+  .up{position: relative; float: right; display: inline-block; border: 5px solid green; height: 100%; width: 50%; box-sizing: border-box;}
