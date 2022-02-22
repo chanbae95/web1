@@ -69,3 +69,6 @@
   .item:nth-child(5):hover{
     flex-grow: 3;
   }
+
+
+  img{width: 300px; float: right; margin: 20px;}
