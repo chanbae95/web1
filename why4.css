@@ -8,3 +8,14 @@
   column-rule-color: powderblue;
 }
 h1{column-span: all;}
+
+.filter{width: 1000px; height: 1000px; background: url(dnf/ranger.png) no-repeat center;}
+.filter:hover{
+  filter: blur(3px);
+  filter: grayscale(80%);
+}
+.filter{transition: all 4s;
+}
+
+h2{font-size: 99px;}
+h2:hover{filter: blur(5px);}
