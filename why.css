@@ -37,6 +37,7 @@
     /* flex-basis: 250px; */
     /* flex-shrink: 6; */
     background: url(dnf/ranger.png) no-repeat center;
+    transition: all 0.5s;
   }
 
   .item:nth-child(2){
@@ -44,15 +45,19 @@
     /* flex-basis: 250px; */
     /* flex-shrink: 1; */
     background: url(dnf/luncher.png) no-repeat center;
+    transition: all 0.5s;
   }
   .item:nth-child(3){
     background: url(dnf/mecanic.png) no-repeat center;
+    transition: all 0.5s;
   }
   .item:nth-child(4){
     background: url(dnf/spitfire.png) no-repeat center;
+    transition: all 0.5s;
   }
   .item:nth-child(5){
     background: url(dnf/sc.png) no-repeat center;
+    transition: all 0.5s;
   }
   .item:nth-child(1):hover{
     flex-grow: 3;
